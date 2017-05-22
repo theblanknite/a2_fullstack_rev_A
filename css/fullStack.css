@@ -1,0 +1,18 @@
+body{
+background-color: #f45642;
+background-image: url("../images/background.jpg");
+text-align: center;	
+}
+h1,h2,h3{
+font-family: 'Inknut Antiqua', serif;
+background-color: #f45642;	
+}
+#centerDiv{
+width: 735px;
+margin: auto;	
+}
+.description{
+background-color: #f45642;
+width: 80%;
+margin: auto;	
+}

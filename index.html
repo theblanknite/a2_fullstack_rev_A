@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Full Stack</title>
+<link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="css/fullStack.css">	
+	
+</head>
+<body>
+
+<br>
+<br>
+
+<h4 onclick="showTasks()">Task List</h4>
+	
+<h1>Full Stack! Created by Johnathan Nugent May 2017</h1>
+<h2>I want to be a "Full Stack" web developer - What does that mean?</h2>
+<h3>...Well let me show you 
+	
+	<a href="images/drawing.png">(Click here for a visual overview)</a></h3>
+
+
+<div class="w3-top">
+  <div class="w3-bar w3-red">
+  	<div id="centerDiv">
+    <a href="http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/" class="w3-bar-item w3-button">Full Stack Definition</a>
+    <a href="https://usersnap.com/blog/how-to-become-a-full-stack-developer/" class="w3-bar-item w3-button">How to be a full stack developer!</a>
+    <a href="https://www.linkedin.com/jobs/full-stack-developer-jobs" class="w3-bar-item w3-button">Job Oppurtunities for Full Stack Developers</a>
+   </div>
+  </div>
+</div>
+
+
+	
+<h4>What does <a href="images/full.png">"Full"</a> in full stack mean?</h4>
+<p class="description">
+	Full means that you are a full programmer, meaning that you can program on the client (user computer) end, and
+	the server computer. The client computer is often referred to as the front end, and the server computer is
+	referred to as the back end, so full means you can program in both the front and back end. 	
+</p>
+
+<h4>What does <a href="images/stack.png">"Stack"</a> in full stack mean?</h4>
+<p class="description">
+	The stack in full stack refers to the stack of programming languages that full programmers need to be familiar with.
+	This includes front end programming languages such as HTML, CSS, Javascript and more, as well as back end languages
+	such as PHP and mySQL. To be a full stack programmer, you will need to know these stacks of programs in order to 
+	develop both the front and back end.	
+</p>
+
+<h4>What does 
+	<a href="images/drawing2.png">LAMP Stack</a> mean?
+	</h4>
+<p class="description">LAMP stands for:<br>
+L: <a href="https://en.wikipedia.org/wiki/Linux">Linux</a><br>
+A: <a href="https://en.wikipedia.org/wiki/Apache_HTTP_Server">Apache</a>, which is our web server<br>
+M: <a href="https://en.wikipedia.org/wiki/MySQL">MySQL</a>, the database we use<br>
+P: <a href="https://en.wikipedia.org/wiki/PHP">PHP</a>, which is the programming language we use on the server side	
+</p>	
+
+<h4>What is <a href="https://en.wikipedia.org/wiki/Database">DB</a>?</h4>
+<p class="description">
+DB, or database, is an organized way to save data on a server. Databases of course are the lifeblood of all modern
+business, because they can be used for things like tracking employees, orders, customers, payrole, and many other
+important business related things. 	
+</p>
+
+<h4>What is <a href="https://en.wikipedia.org/wiki/MySQL">MySQL</a>?</h4>
+<p class="description">
+MySQL is a widely used database. It is not the most common database, but still very commonly used under
+oracle. MySQL is FREE! The inventor of mySQL named this after his first daughter, and her name was "MY".
+This inventor later created MariaDB, after his second daughter, "Maria". Therefore MySQL is "My" + 
+structured language query.	
+</p>
+
+<h4>What is <a href="https://en.wikipedia.org/wiki/SQL">SQL</a>?</h4>
+<p class="description">
+SQL is a international standard language. It stands for structured Query Language. MySQL is the name of the database,
+while SQL is the language you use inside of that database to answer questions. SQL is used for many mainstream
+databases such as mySQL, Oracle, and Microsoft SQL.	
+</p>
+
+<h4>What is <a href="https://en.wikipedia.org/wiki/PHP">PHP</a>?</h4>
+<p class="description">
+PHP is the programming language that connects front end to back end. It reads HTML forms and send info to a server. It
+also reads the database and sends that back to another HTML form. PHP is server side, and totally secure and private.
+PHP is the main back end language that makes communication between users and servers possible, and therefore makes
+eCommerce and eBusiness possible.	
+</p>
+
+<h4>What is <a href="">MySQL from the CLI</a> (Command Line Interface)?</h4>
+<p class="description">
+The User Interface for DB's are HTML pages that WE Create!
+The CLI is where experts where the Power Users can see inside of the DB
+but in a very primitive, non-GUI way. In other words, CLI os fpr the DB experts,
+not the users. 	
+</p>
+
+<ul>
+<li>$ mysql -u root -p</li>
+<li>Enter Password: </li>
+<li>mysql> show databases;</li>	
+<li>mysql> CREATE DATABASE a2_nugent_16may;</li>
+<li>mysql> show databases;</li>
+<li>
+You're results should look like this:
+<pre>
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| a2_nugent_16may    |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+</pre>	
+</li>
+<li>mysql> USE a2_nugent_16may;</li>	
+</ul>
+<ul><pre>
+mysql> CREATE TABLE student_name(
+-> id int(8), 
+-> id fname varchar(20),
+-> id lname varchar(20)
+-> );
+	
+</pre>
+<li><img src="images/describecustomer.png"></li>
+<br>
+<li><img src="images/selecttable.png"></li>
+</ul>
+
+<script src="js/fullStack.js"></script>	
+</body>
+</html>
